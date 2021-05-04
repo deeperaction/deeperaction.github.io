@@ -4,4 +4,12 @@ excerpt: "Detecting all segments of containing actions of interest and recognizi
 collection: tracks
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+<img src='/images/refinedaction.gif'>
+
+Most existing action localization datasets are built upon coarse action categories, e.g., “Layup drill in basketball” in ActivityNet rather than “dunk basketball” or “cast basketball”. As such coarse categories are often highly related with background context, their temporal annotations often lack clear boundaries to describe detailed actions. 
+
+To fill this gap, we propose a new benchmark, RefineAction, which is a large and more-refined video dataset for temporal action localization. Different from the previous datasets, our RefineAction contains two distinguished features.
+1. The definition of action categories is much more refined, and an action can be divided into more subtle atomic actions.
+2. The annotation rules and procedures are more accurate with cross-check, reducing the boundary uncertainty for temporal action localization. 
+
+We expect that such refined dataset can bring new challenges and novel contributions in the research of temporal action localization. 
