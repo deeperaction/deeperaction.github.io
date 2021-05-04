@@ -25,9 +25,9 @@ Detecting all segments of containing actions of interest and recognizing their c
 
 ### [Spatiotemporal action detection](/tracks/2-multisports/)
 
-localizing all action instances with spatio-temporal tubes and recognizing their labels from untrimmed and multi-person videos. 
+Localizing all action instances with spatio-temporal tubes and recognizing their labels from untrimmed and multi-person videos. 
 
 ### [Part-level action parsing](/tracks/3-kineticstps/)
 
-decomposing the action instance into a human part graph and detecting action labels for all human parts an as well the whole human.
+Decomposing the action instance into a human part graph and detecting action labels for all human parts an as well the whole human.
 

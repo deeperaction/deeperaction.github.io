@@ -1,6 +1,6 @@
 ---
 title: "RefineAction Challenge on Temporal Action Localization"
-excerpt: "Detecting all segments of containing actions of interest and recognizing their categories from a long video sequence. <br/><img src='/images/500x300.png'>"
+excerpt: "Detecting all segments of containing actions of interest and recognizing their categories from a long video sequence. <br/><img src='/images/refinedaction.gif'>"
 collection: tracks
 ---
 
