@@ -6,3 +6,5 @@ main:
     url: /tracks/
   - title: "Organizers"
     url: /organizers/
+  - title: "Invited Speakers"
+    url: /speakers/
