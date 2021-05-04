@@ -2,3 +2,5 @@
 main:
   - title: "Important Dates"
     url: /importantdates/
+  - title: "Tracks"
+    url: /tracks/
