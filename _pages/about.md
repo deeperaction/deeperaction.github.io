@@ -19,15 +19,15 @@ ICCV will once again be virtual this year and the workshop will be held on Monda
 
 DeeperAction aims to advance the area of human action understanding with a shift from traditional action recognition to deeper understanding tasks of action, with a focus on localized and detailed understanding of human action from videos in the wild. Specifically, we benchmark three related tasks on localized and detailed action understanding by introducing newly-annotated and high-quality datasets, and organize the action understanding challenge on these benchmarks. 
 
-### Temporal action Localization [link]
+### [Temporal action Localization](/tracks/1-refineaction/)
 
 Detecting all segments of containing actions of interest and recognizing their categories from a long video sequence. 
 
-### Spatiotemporal action detection[link]
+### [Spatiotemporal action detection](/tracks/2-multisports/)
 
 localizing all action instances with spatio-temporal tubes and recognizing their labels from untrimmed and multi-person videos. 
 
-### Part-level action parsing [link]
+### [Part-level action parsing](/tracks/3-kineticstps/)
 
 decomposing the action instance into a human part graph and detecting action labels for all human parts an as well the whole human.
 
