@@ -23,7 +23,7 @@ DeeperAction aims to advance the area of human action understanding with a shift
 
 Detecting all segments of containing actions of interest and recognizing their categories from a long video sequence. 
 
-### [Spatiotemporal action detection](/tracks/2-multisports/)
+### [Spatio-temporal action detection](/tracks/2-multisports/)
 
 Localizing all action instances with spatio-temporal tubes and recognizing their labels from untrimmed and multi-person videos. 
 
