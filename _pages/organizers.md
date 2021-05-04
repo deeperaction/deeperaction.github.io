@@ -1,0 +1,34 @@
+---
+layout: archive
+title: "Organizers"
+permalink: /organizers/
+author_profile: false
+redirect_from:
+  - /people
+---
+
+{% include base_path %}
+
+**Limin Wang**<br>
+Nanjing University, China<br>
+[lmwang@nju.edu.cn](mailto:lmwang@nju.edu.cn)
+
+**Yali Wang**<br>
+Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, China<br>
+[yl.wang@siat.ac.cn](mailto:yl.wang@siat.ac.cn)
+
+**Jing Shao**<br>
+SenseTime Group Limited, Beijing<br>
+[shaojing@sensetime.com](mailto:shaojing@sensetime.com)
+
+**Wei Wu**<br>
+SenseTime Group Limited, Beijing<br>
+[wuwei@sensetime.com](mailto:wuwei@sensetime.com)
+
+**Junjie Yan**<br>
+SenseTime Group Limited, Beijing<br>
+[yanjunjie@sensetime.com](mailto:yanjunjie@sensetime.com)
+
+**Yu Qiao**<br>
+Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, China<br>
+[yu.qiao@siat.ac.cn](mailto:yu.qiao@siat.ac.cn)

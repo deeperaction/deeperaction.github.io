@@ -4,3 +4,5 @@ main:
     url: /importantdates/
   - title: "Tracks"
     url: /tracks/
+  - title: "Organizers"
+    url: /organizers/
