@@ -6,6 +6,8 @@ collection: tracks
 
 <img src='/images/refinedaction.gif'>
 
+**Track Organizers**: Yi Liu, Xiao Ma 
+
 Most existing action localization datasets are built upon coarse action categories, e.g., “Layup drill in basketball” in ActivityNet rather than “dunk basketball” or “cast basketball”. As such coarse categories are often highly related with background context, their temporal annotations often lack clear boundaries to describe detailed actions. 
 
 To fill this gap, we propose a new benchmark, RefineAction, which is a large and more-refined video dataset for temporal action localization. Different from the previous datasets, our RefineAction contains two distinguished features.
