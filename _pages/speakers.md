@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-**Gül Varol **<br>
+**Gül Varol**<br>
 École des Ponts ParisTech<br>
 [gul.varol@enpc.fr](mailto:gul.varol@enpc.fr)<br>
 Gul is an Assistant Professor at the IMAGINE team of École des Ponts ParisTech. Previously, she was a postdoctoral researcher at the University of Oxford (VGG), working with Andrew Zisserman. She obtained her PhD from the WILLOW team of Inria Paris and École Normale Supérieure. Her thesis, co-advised by Ivan Laptev and Cordelia Schmid, received the ELLIS PhD award. Her research is focused on human understanding in videos, specifically action recognition, body shape and motion analysis, and sign language. 
