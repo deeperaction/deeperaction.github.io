@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+## Main Organizers
+
 **Limin Wang**<br>
 Nanjing University, China<br>
 [lmwang@nju.edu.cn](mailto:lmwang@nju.edu.cn)
@@ -32,3 +34,13 @@ SenseTime Group Limited, Beijing<br>
 **Yu Qiao**<br>
 Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, China<br>
 [yu.qiao@siat.ac.cn](mailto:yu.qiao@siat.ac.cn)
+
+## Advisors
+
+**Rahul Sukthankar**<br>
+Google Research<br>
+[sukthankar@google.com](sukthankar@google.com)
+
+**Luc Van Gool**<br>
+CVL ETHZ, and KU Leuven<br>
+[vangool@vision.ee.ethz.ch](vangool@vision.ee.ethz.ch)
