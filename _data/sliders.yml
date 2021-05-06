@@ -3,9 +3,9 @@
   captions: false
   bullets: true
   images:
-    - src: /images/refinedaction.gif
+    - src: /images/refinedaction_ori.gif
       alt: RefineAction
-    - src: /images/sports.gif
+    - src: /images/sports_ori.gif
       alt: MultiSports
     - src: /images/track3.png
       alt: Kinetics-TPS
