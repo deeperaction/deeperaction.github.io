@@ -1,14 +1,14 @@
 # example slider
 - selector: slider_title
-  captions: false
+  captions: true
   bullets: true
   images:
     - src: /images/refinedaction_ori.gif
-      alt: RefineAction
+      alt: "Track 1: RefineAction"
     - src: /images/sports_ori.gif
-      alt: MultiSports
+      alt: "Track 2: MultiSports"
     - src: /images/track3.png
-      alt: Kinetics-TPS
+      alt: "Track 3: Kinetics-TPS"
   settings:
     height: "'200'"
     effect: "'fade'"
