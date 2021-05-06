@@ -9,14 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
-**Gül Varol**<br>
-Google Research<br>
-[sukthankar@google.com](mailto:sukthankar@google.com)<br>
-Rahul Sukthankar is a Principal Scientist / Director at Google Research, leading several research efforts in computer vision, machine learning and robotics at Google. He is also an adjunct research professor at the Robotics Institute at Carnegie Mellon and courtesy faculty at the University of Central Florida. Dr. Sukthankar was previously a senior principal researcher at Intel Labs, a senior researcher at HP / Compaq Labs and a research scientist at Just Research. He received his Ph.D. in Robotics from Carnegie Mellon in 1997 and his B.S.E. in Computer Science from Princeton in 1991. He co-founded several workshops in conjunction with CVPR / ICCV / ECCV, including the PROCAMS (2003-2011) and THUMOS (2013-2015) series. Dr. Sukthankar has frequently served as Area Chair at CVPR / ICCV, Workshop Chair (CVPR’09), Tutorials Chair (CVPR’13), Program Chair (CVPR,’21, WACV’15, WACV’18) and currently serves as Editor in Chief of the Machine Vision and Applications journal. He is a Fellow of the IEEE.
+**Gül Varol **<br>
+École des Ponts ParisTech<br>
+[gul.varol@enpc.fr](mailto:gul.varol@enpc.fr)<br>
+Gul is an Assistant Professor at the IMAGINE team of École des Ponts ParisTech. Previously, she was a postdoctoral researcher at the University of Oxford (VGG), working with Andrew Zisserman. She obtained her PhD from the WILLOW team of Inria Paris and École Normale Supérieure. Her thesis, co-advised by Ivan Laptev and Cordelia Schmid, received the ELLIS PhD award. Her research is focused on human understanding in videos, specifically action recognition, body shape and motion analysis, and sign language. 
 {:.text-justify}
 
-**Luc Van Gool**<br>
-CVL ETHZ, and KU Leuven<br>
-[vangool@vision.ee.ethz.ch](mailto:vangool@vision.ee.ethz.ch)<br>
-Luc Van Gool is a full professor for Computer Vision at the ETH in Zurich and the Katholieke Universiteit Leuven in Belgium. He leads research and teaches at both places. He coorganized the famous PASCAL VOC series of competitions, which greatly advanced the development of computer vision in image recognition, object detection, and image segmentation. His main interests include 3D reconstruction and modeling, object recognition, and tracking and gesture analysis. He has authored over 300 papers. Luc Van Gool has been a program committee member of several, major computer vision conferences (e.g. Program Chair ICCV'05, Beijing, and General Chair of ICCV'11, Barcelona, and of ECCV'14, Zurich). He received several Best Paper awards (eg. David Marr Prize '98, Best Paper CVPR'07, Tsuji Outstanding Paper Award ACCV'09, Best Vision Paper ICRA'09, Koenderink Award ECCV’16). In 2017, he was granted the `Distinguished Researcher’ status by the IEEE Society on Computer Vision.
+**Chen Sun**<br>
+Brown University and Google<br>
+[chen_sun4@brown.edu](mailto:chen_sun4@brown.edu)<br>
+Chen Sun is an assistant professor of computer science at Brown University, and a staff research scientist at Google. His research interest is on computer vision and machine learning, with recent focus on learning multimodal temporal representations from unlabeled videos. His long-term research goal is to make video an indispensable learning source for visual perception, language understanding, robotics and cognitive science, and ultimately to develop autonomous machines that interact with and assist us in unconstrained environments. Chen finished his PhD at University of Southern California in 2016, and undergraduate study at Tsinghua University in 2011.
 {:.text-justify}
