@@ -1,0 +1,14 @@
+# example slider
+- selector: slider_title
+  captions: false
+  bullets: true
+  images:
+    - src: /images/refinedaction.gif
+      alt: RefineAction
+    - src: /images/sports.gif
+      alt: MultiSports
+    - src: /images/track3.png
+      alt: Kinetics-TPS
+  settings:
+    height: "'200'"
+    effect: "'fade'"

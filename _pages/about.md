@@ -6,9 +6,13 @@ author_profile: false
 redirect_from: 
   - /about/
   - /about.html
+image_sliders:
+  - slider_title
 ---
 Challenge and Workshop on Localized and Detailed Understanding of Human Actions in Videos<br>
 *Monday 11th October 2021*
+
+{% include slider.html selector="slider_title" %}
 
 ## Attending the Workshop
 
