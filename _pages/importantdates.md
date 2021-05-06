@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Important Dates"
 permalink: /importantdates/
 author_profile: false

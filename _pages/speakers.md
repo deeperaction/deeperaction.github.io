@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Invited Speakers"
 permalink: /speakers/
 author_profile: false

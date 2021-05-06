@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Program Schedule"
 permalink: /program/
 author_profile: false
