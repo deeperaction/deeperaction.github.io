@@ -1,10 +1,10 @@
 ---
 title: "Kinetics-TPS Challenge on Part-level Action Parsing"
-excerpt: "Decomposing the action instance into a human part graph and detecting action labels for all human parts an as well the whole human. <br/><img src='/images/500x300.png'>"
+excerpt: "Decomposing the action instance into a human part graph and detecting action labels for all human parts an as well the whole human. <br/><img src='/images/track3.png'>"
 collection: tracks
 ---
 
-<img src='/images/500x300.png'>
+<img src='/images/track3.png'>
 
 **Track Organizers**: Dongliang Wang, Weihao Gan, Xiao Ma, Ding Xia 
 
