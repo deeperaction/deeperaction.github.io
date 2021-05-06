@@ -3,7 +3,7 @@
   captions: true
   bullets: true
   images:
-    - src: /images/slider_1.png
+    - src: /images/slider_1.jpg
     - src: /images/refinedaction_ori.gif
       alt: "Track 1: RefineAction"
     - src: /images/sports_ori.gif
