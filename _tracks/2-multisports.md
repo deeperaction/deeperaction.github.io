@@ -4,7 +4,7 @@ excerpt: "Localizing all action instances with spatio-temporal tubes and recogni
 collection: tracks
 ---
 
-<img src='/images/sports.gif'>
+<img src='/images/sports_ori.gif' width="500" height="300">
 {:.text-center}
 
 **Track Organizers**: Yixuan Li, Lei Chen, Runyu He, Zhenzhi Wang

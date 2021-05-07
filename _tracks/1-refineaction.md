@@ -4,7 +4,7 @@ excerpt: "Detecting all segments of containing actions of interest and recognizi
 collection: tracks
 ---
 
-<img src='/images/refinedaction.gif'>
+<img src='/images/refinedaction_ori.gif' width="500" height="300">
 {:.text-center}
 
 **Track Organizers**: Yi Liu, Xiao Ma 
