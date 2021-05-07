@@ -4,7 +4,7 @@ excerpt: "Decomposing the action instance into a human part graph and detecting 
 collection: tracks
 ---
 
-<img src='/images/track3.png'>
+<img src='/images/track3_ori.png' width="500" height="300">
 {:.text-center}
 
 **Track Organizers**: Dongliang Wang, Weihao Gan, Xiao Ma, Ding Xia 
