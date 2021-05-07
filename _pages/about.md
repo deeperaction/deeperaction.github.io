@@ -16,7 +16,7 @@ Challenge and Workshop on Localized and Detailed Understanding of Human Actions 
 
 ## Attending the Workshop
 
-ICCV will once again be virtual this year and the workshop will be held on Monday 11th October 2021 as a full day event. More information about attending the workshop is coming soon.
+ICCV will once again be virtual this year and the workshop will be held on Monday 11th October 2021 as a half day event. More information about attending the workshop is coming soon.
 {:.text-justify}
 
 ## Aims and Scope
