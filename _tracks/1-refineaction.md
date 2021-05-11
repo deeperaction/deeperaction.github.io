@@ -7,7 +7,7 @@ collection: tracks
 <img src='/images/refinedaction_ori.gif' width="500" height="300">
 {:.text-center}
 
-**Track Organizers**: Yi Liu, Xiao Ma 
+**Track Organizers**: Yi Liu (yi.liu1@siat.ac.cn), Xiao Ma (xiao.ma@sait.ac.cn)
 
 Most existing action localization datasets are built upon coarse action categories, e.g., “Layup drill in basketball” in ActivityNet rather than “dunk basketball” or “cast basketball”. As such coarse categories are often highly related with background context, their temporal annotations often lack clear boundaries to describe detailed actions. 
 {:.text-justify}
