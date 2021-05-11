@@ -16,6 +16,7 @@ Nanjing University, China<br>
 
 **Yali Wang**<br>
 Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, China<br>
+Shanghai AI Lab, Shanghai, China<br>
 [yl.wang@siat.ac.cn](mailto:yl.wang@siat.ac.cn)
 
 **Jing Shao**<br>
@@ -32,6 +33,7 @@ SenseTime Group Limited, Beijing<br>
 
 **Yu Qiao**<br>
 Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, China<br>
+Shanghai AI Lab, Shanghai, China<br>
 [yu.qiao@siat.ac.cn](mailto:yu.qiao@siat.ac.cn)
 
 ## Advisors
