@@ -25,12 +25,10 @@ DeeperAction aims to advance the area of human action understanding with a shift
 {:.text-justify}
 
 ### [Temporal action Localization](https://deeperaction.github.io/fineaction "Tracks1-FineAction")
-[Temporal action Localization](https://deeperaction.github.io/fineaction "Tracks1-FineAction")
 Detecting all segments of containing actions of interest and recognizing their categories from a long video sequence. 
 {:.text-justify}
 
 ### [Spatio-temporal action detection](https://deeperaction.github.io/multisports "Tracks2-MultiSports")
-[Spatio-temporal action detection](https://deeperaction.github.io/multisports "Tracks2-MultiSports")
 Localizing all action instances with spatio-temporal tubes and recognizing their labels from untrimmed and multi-person videos. 
 {:.text-justify}
 
