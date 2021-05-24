@@ -7,11 +7,11 @@ author_profile: false
 			<!-- Main -->
 					<p style="margin-top:3px; margin-bottom:12px">
 						FineAction: A Fined Video Dataset for Temporal Action Localization<br>
-						[<a href="http://arxiv.org/abs/2105.07404">paper</a>]
+						[<a href="http://arxiv.org/abs/2105.3757445">paper</a>]
 					</p>
 					<p align="center" style="margin-top:12px">
 							<a href="mailto:yi.liu1@siat.ac.cn"><i class="fas fa-envelope-open-text"></i></a>&nbsp
-							<a href="https://yiliu.me/">Yi Liu</a>&nbsp&nbsp
+							<a href="https://www.yiliu.me/">Yi Liu</a>&nbsp&nbsp
 
 							<a href="mailto:lmwang.nju@gmail.com"><i class="fas fa-envelope-open-text"></i></a>&nbsp
 							<a href="http://wanglimin.github.io">Limin Wang</a>&nbsp&nbsp
@@ -30,14 +30,17 @@ author_profile: false
 					<p align="center"><a href="http://mmlab.siat.ac.cn">MMLAB @ SIAT</a></p>
 					<div class="box">
 						<span class="image fit">
-						<img src="/images/fineaction/main.png" alt="" />
+						<img src="/images/fineaction/show1.png" alt="" />
 						</span>
-						<p style="text-align:justify; text-justify:inter-ideograph;"><small>The 25fps tubelets of bounding boxes and fine-grained action category annotations in the sample frames of <i>MultiSports</i> dataset. Multiple concurrent action situations frequently appear in <i>MultiSports</i> with many starting and ending points in the long untrimmed video clips. The frames are cropped and sampled by stride 5 or 7 for visualization propose. Tubes with the same color represent the same person.</small></p>
+						<span class="image fit">
+						<img src="/images/fineaction/show2.png" alt="" />
+						</span>
+						<!-- <p style="text-align:justify; text-justify:inter-ideograph;"><small>The 25fps tubelets of bounding boxes and fine-grained action category annotations in the sample frames of <i>MultiSports</i> dataset. Multiple concurrent action situations frequently appear in <i>MultiSports</i> with many starting and ending points in the long untrimmed video clips. The frames are cropped and sampled by stride 5 or 7 for visualization propose. Tubes with the same color represent the same person.</small></p> -->
 						<hr />
 						<header>
 						<h3>Abstract</h3>
 						</header>
-						<p style="text-align:justify; text-justify:inter-ideograph;">On the existing benchmark datasets, THUMOS14 and ActivityNet, temporal action localization techniques have achieved great success. However, there are still existing some problems, such as the source of the action is too single, there are only sports categories in THUMOS14,  coarse instances with uncertain boundaries in ActivityNet and HACS Segments interfering with proposal generation and behavior prediction.To take temporal action localization to a new level, we develop <i><b>FineAction<i><b>, a new large-scale fined video dataset collected from existing video datasets and web videos. Overall, this dataset contains 139K fined action instances densely annotated in almost 17K untrimmed videos spanning 106 action categories. FineAction has a more fined definition of action categories and high-quality annotations to reduce the boundary uncertainty compared to the existing action localization datasets. We systematically investigate representative methods of temporal action localization on our dataset and obtain some interesting findings with further analysis. Experimental results reveal that our FineAction brings new challenges for action localization on fined and multi-label instances with shorter duration. This dataset will be public in the future and we hope our FineAction could advance research towards temporal action localization.</p>
+						<p style="text-align:justify; text-justify:inter-ideograph;">On the existing benchmark datasets, THUMOS14 and ActivityNet, temporal action localization techniques have achieved great success. However, there are still existing some problems, such as the source of the action is too single, there are only sports categories in THUMOS14,  coarse instances with uncertain boundaries in ActivityNet and HACS Segments interfering with proposal generation and behavior prediction.To take temporal action localization to a new level, we develop <i><b>FineAction</i></b>, a new large-scale fined video dataset collected from existing video datasets and web videos. Overall, this dataset contains 139K fined action instances densely annotated in almost 17K untrimmed videos spanning 106 action categories. FineAction has a more fined definition of action categories and high-quality annotations to reduce the boundary uncertainty compared to the existing action localization datasets. We systematically investigate representative methods of temporal action localization on our dataset and obtain some interesting findings with further analysis. Experimental results reveal that our FineAction brings new challenges for action localization on fined and multi-label instances with shorter duration. This dataset will be public in the future and we hope our FineAction could advance research towards temporal action localization.</p>
 						<!-- <header>
 							<h3>Demo Video</h3>
 							<p>Please choose "1080P" for better experience.</p>
@@ -54,7 +57,7 @@ author_profile: false
 						<h3>Dataset Statitics</h3>
 						</header>
 						<p style="text-align:justify; text-justify:inter-ideograph;">
-						Our <i><b>FineAction<i><b> is a large-scale dataset that is suitable for training deep learning models, which contains 103,324 instances for a total of 705 video hours. As a consequence, the number of instances in FineAction is as great as 6.17 per video and 975 per category. 
+						Our <i><b>FineAction</i></b> is a large-scale dataset that is suitable for training deep learning models, which contains 103,324 instances for a total of 705 video hours. As a consequence, the number of instances in FineAction is as great as 6.17 per video and 975 per category. 
 						</p>
 						<ol>
 							<li>
