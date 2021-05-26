@@ -14,6 +14,12 @@ Challenge and Workshop on Localized and Detailed Understanding of Human Actions 
 
 {% include slider.html selector="slider_title" %}
 
+## NEWS
+
+- <u>2021-05-26</u><br>
+  - Paper on FineAction (dataset for Track 1) can now be found <a href="https://arxiv.org/abs/2105.11107">here</a>.<br>
+  - Paper on MultiSports (dataset for Track 2) can now be found <a href="https://arxiv.org/abs/2105.07404">here</a>.
+
 ## Attending the Workshop
 
 ICCV will once again be virtual this year and the workshop will be held on Monday 11th October 2021 as a half day event. More information about attending the workshop is coming soon.
