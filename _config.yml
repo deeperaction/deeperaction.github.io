@@ -178,6 +178,9 @@ collections:
   tracks:
     output: true
     permalink: /:collection/:path/
+  datasets:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -239,6 +242,15 @@ defaults:
   - scope:
       path: ""
       type: tracks
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      comment: false
+  # _dadtasets
+  - scope:
+      path: ""
+      type: datasets
     values:
       layout: single
       author_profile: false

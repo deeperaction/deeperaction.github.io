@@ -1,9 +1,9 @@
 # main links links
 main:
-  - title: "Important Dates"
-    url: /importantdates/
   - title: "Tracks"
     url: /tracks/
+  - title: "Important Dates"
+    url: /importantdates/
   - title: "Organizers"
     url: /organizers/
   - title: "Invited Speakers"
