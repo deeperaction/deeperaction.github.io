@@ -10,14 +10,12 @@ author_profile: false
 						[<a href="https://arxiv.org/abs/2105.11107">paper</a>]
 					</p>
 					<p align="center" style="margin-top:12px">
-							<a href="mailto:yi.liu1@siat.ac.cn"><i class="fas fa-envelope-open-text"></i></a>&nbsp
-							<a href="https://www.yiliu.me/">Yi Liu</a>&nbsp&nbsp
-
-							<a href="mailto:lmwang.nju@gmail.com"><i class="fas fa-envelope-open-text"></i></a>&nbsp
-							<a href="http://wanglimin.github.io">Limin Wang</a>&nbsp&nbsp
 
 							<a href="mailto:xiao.ma@siat.ac.cn"><i class="fas fa-envelope-open-text"></i></a>&nbsp
 							<a href="https://scholar.google.com/citations?hl=zh-CN&user=hD948dkAAAAJ">Xiao Ma</a>&nbsp&nbsp
+
+							<a href="mailto:xiao.ma@siat.ac.cn"><i class="fas fa-envelope-open-text"></i></a>&nbsp
+							<a href="https://scholar.google.com/citations?hl=zh-CN&user=hD948dkAAAAJ">Ding Xia</a>&nbsp&nbsp
 
 							<a href="yl.wang@siat.ac.cn"><i class="fas fa-envelope-open-text"></i></a>&nbsp
 							<a href="https://scholar.google.com/citations?hl=zh-CN&user=hD948dkAAAAJ">Yali Wang</a>&nbsp&nbsp
@@ -30,13 +28,10 @@ author_profile: false
 					<p align="center">
 						<a href="http://mmlab.siat.ac.cn">MMLAB @ Shenzhen Institute of Advanced Technology</a>
 					</p>
-					<p align="center">
-						<a href="http://mcg.nju.edu.cn/en/index.html">MCG Group @ Nanjing University</a>
-					</p>
 					<div class="box">
 						<center>
 						<span class="image fit">
-						<img src='/images/refinedaction.gif'>
+						<img src='/images/kineticstps.gif'>
 						</span>
 						</center>
 						<!-- <span class="image fit">
@@ -50,7 +45,7 @@ author_profile: false
 						<header>
 						<h3>Abstract</h3>
 						</header>
-						<p style="text-align:justify; text-justify:inter-ideograph;">On the existing benchmark datasets, THUMOS14 and ActivityNet, temporal action localization techniques have achieved great success. However, there are still existing some problems, such as the source of the action is too single, there are only sports categories in THUMOS14,  coarse instances with uncertain boundaries in ActivityNet and HACS Segments interfering with proposal generation and behavior prediction.To take temporal action localization to a new level, we develop <i><b>FineAction</i></b>, a new large-scale fined video dataset collected from existing video datasets and web videos. Overall, this dataset contains 139K fined action instances densely annotated in almost 17K untrimmed videos spanning 106 action categories. FineAction has a more fined definition of action categories and high-quality annotations to reduce the boundary uncertainty compared to the existing action localization datasets. We systematically investigate representative methods of temporal action localization on our dataset and obtain some interesting findings with further analysis. Experimental results reveal that our FineAction brings new challenges for action localization on fined and multi-label instances with shorter duration. This dataset will be public in the future and we hope our FineAction could advance research towards temporal action localization.</p>
+						<p style="text-align:justify; text-justify:inter-ideograph;">Traditionally, action recognition has been treated as a high-level video classification problem. However, such manner ignores detailed and middle-level understanding about human actions. To fill this gap, we deeply investigate explainable action recognition in videos, by explicitly encoding human actions as spatio-temporal composition of body parts and objects. Specifically, we first develop a large-scale <b><i>Kinetics-TPS</i></b> benchmark for this study. Different from existing video action datasets, our Kinetics-TPS provides 7.9M annotations of 10 body parts, 4.5M part gestures and 0.5 interactive objects in the frame level, which bring new opportunity to understand human action by compositional learning of body parts in 4743 videos. With Kinetics-TPS, we build up a novel progressive action graph network to recognize human actions in an explainable bottom-up manner, which progressively assembles body parts, their gestures and relevant objects as compositional human representation, and subsequently exploit spatio-temporal relations among humans for action recognition. Finally, we validate generalization capacity of our approaches in two extra challenging problems of compositional action recognition, i.e., semi-supervised and few-shot settings. Extensive results show that, with Kinetics-TPS, we can significantly boost action recognition performance with explainable body composition.</p>
 						<!-- <header>
 							<h3>Demo Video</h3>
 							<p>Please choose "1080P" for better experience.</p>
@@ -67,20 +62,32 @@ author_profile: false
 						<h3>Dataset Statitics</h3>
 						</header>
 						<p style="text-align:justify; text-justify:inter-ideograph;">
-						Our <i><b>FineAction</i></b> is a large-scale dataset that is suitable for training deep learning models, which contains 103,324 instances for a total of 705 video hours. As a consequence, the number of instances in FineAction is as great as 6.17 per video and 975 per category. 
+						Our <i><b>FineAction</i></b> is a large-scale dataset which provides 7.9M annotations of 10 body parts, 4.5M part gestures and 0.5 interactive objects in the frame level, which bring new opportunity to understand human action by compositional learning of body parts in 4743 videos.
 						</p>
 						<ol>
 							<li>
-								Comparing FineAction with existing datasets for temporal action localization.
-								<span class="image fit"><img src="/images/fineaction/tab1.png" alt="comparison with other dataset"/></span>
+								 Number of 'humans' instances per category of Kinetics-KPS.
+								<span class="image fit"><img src="/images/kineticstps/1.png" alt="comparison with other dataset"/></span>
 							</li>
 							<li>
-								Number of instances per category for FineAction.
-								<span class="image fit"><img src="/images/fineaction/pic1.png" alt="comparison with other dataset"/></span>
+								 Number of 'parts' instances per category of Kinetics-KPS.
+								<span class="image fit"><img src="/images/kineticstps/2.png" alt="comparison with other dataset"/></span>
 							</li>
 							<li>
-								Comparison of datasets: the number of instances  (a) and categories per video (c). The distribution of duration of instances (b) and overlap (d) on FineAction.
-								<span class="image fit"><img src="/images/fineaction/pic2.png" alt="number of instances"/></span>
+								 Number of  'objects' instances per category of Kinetics-KPS.
+								<span class="image fit"><img src="/images/kineticstps/3.png" alt="comparison with other dataset"/></span>
+							</li>
+							<li>
+								  Number of 'gestures'  instances per parts of Kinetics-KPS.
+								<span class="image fit"><img src="/images/kineticstps/4.png" alt="comparison with other dataset"/></span>
+							</li>
+							<li>
+								  Some 'parts-gestures' pairs instances of some categories in Kinetics-KPS.
+								<span class="image fit"><img src="/images/kineticstps/5.png" alt="comparison with other dataset"/></span>
+							</li>
+							<li>
+								  Top-5 frequent use of  'gestures' instances of parts in Kinetics-KPS.
+								<span class="image fit"><img src="/images/kineticstps/6.png" alt="comparison with other dataset"/></span>
 							</li>
 						</ol>
 						<!-- <header>
