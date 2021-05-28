@@ -39,7 +39,6 @@ Localizing all action instances with spatio-temporal tubes and recognizing their
 {:.text-justify}
 
 ### [Part-level action parsing](https://deeperaction.github.io/kineticstps "Tracks3-Kinetics-TPS")
-<!-- (/tracks/3-kineticstps/) -->
 
 Decomposing the action instance into a human part graph and detecting action labels for all human parts an as well the whole human.
 {:.text-justify}
