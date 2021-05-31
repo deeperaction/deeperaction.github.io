@@ -128,19 +128,19 @@ author_profile: false
 								<span class="image fit"><img src="/images/fineaction/pic2.png" alt="number of instances"/></span>
 							</li>
 						</ol> -->
-						<!-- <header>
+						<header>
 						<h3>Experiment Results</h3>
 						</header>
 						<ol>
 							<li>
-							Comparisons with state-of-the-art proposal generation methods on our FineAction in terms of AR@AN, where SNMS stands forSoft-NMS.
-							<span class="image fit"><img src="/images/fineaction/exp2.png" alt="Comparison of SOTA methods" /></span>
+							We provide a simple baseline for this task. First, we use ResNet50 and RoiAlign to extract part, human, object features, by using ground truth bounding boxes. Second, we concatenate these features and feed them into a MLP network to extract the refined feature of each body part. The refined part feature is used for part state recognition. Third, we perform average pooling on all refined part features of each human as the refine human feature. Then we perform average pooling on all refined human features in each sampled frame to obtain the frame-level human feature. Fourth, we perform TSN to extract visual feature of the corresponding frame. Then we concatenate the frame-level human feature and TSN feature together, and feed this feature into a MLP layer to get action score of this frame. Finally, we average action scores over frames as video-level action prediction for training. Additionally, since ground truth annotations are not available in the testing stage. Hence, we use the detected boxes of human instances and body parts for inference. Our evaluation metric is action recognition accuracy (top-1) under part state correctness. The detailed description of this evaluation metric can be found in the codalab.
+							<span class="image fit"><img src="/images/kineticstps/bs.png" alt="Baseline" /></span>
 							</li>
-							<li>
+							<!-- <li>
 							Performance evaluation of state-of-the-art methods on our FineAction in terms of mAP at IoU thresholds from 0.3 to 0.7.
 							<span class="image fit"><img src="/images/fineaction/exp3.png" alt="Comparison between SlowFast and SlowOnly" /></span>
-							</li>
-						</ol> -->
+							</li> -->
+						</ol>
 						<header>
 						<h3>Download</h3>
 						<p>WILL BE UPDATED LATER</p>
