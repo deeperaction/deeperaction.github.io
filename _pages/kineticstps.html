@@ -63,7 +63,7 @@ author_profile: false
 						<header>
 						<h3>Abstract</h3>
 						</header>
-						<p style="text-align:justify; text-justify:inter-ideograph;">Traditionally, action recognition has been treated as a high-level video classification problem. However, such manner ignores detailed and middle-level understanding about human actions. To fill this gap, we deeply investigate explainable action recognition in videos, by explicitly encoding human actions as spatio-temporal composition of body parts and objects. Specifically, we first develop a large-scale <b><i>Kinetics-TPS</i></b> benchmark for this study. Different from existing video action datasets, our Kinetics-TPS provides 7.9M annotations of 10 body parts, 4.5M part gestures and 0.5 interactive objects in the frame level, which bring new opportunity to understand human action by compositional learning of body parts in 4743 videos. With Kinetics-TPS, we build up a novel progressive action graph network to recognize human actions in an explainable bottom-up manner, which progressively assembles body parts, their gestures and relevant objects as compositional human representation, and subsequently exploit spatio-temporal relations among humans for action recognition. Finally, we validate generalization capacity of our approaches in two extra challenging problems of compositional action recognition, i.e., semi-supervised and few-shot settings. Extensive results show that, with Kinetics-TPS, we can significantly boost action recognition performance with explainable body composition.</p>
+						<p style="text-align:justify; text-justify:inter-ideograph;">Traditionally, action recognition has been treated as a high-level video classification problem. However, such manner ignores detailed and middle-level understanding about human actions. To fill this gap, we deeply investigate action recognition in videos, by explicitly encoding human actions as spatio-temporal composition of body parts. Specifically, we develop a large-scale Kinetics-Temporal Part State (<b>Kinetics-TPS</b>) benchmark for this study. Different from existing video action datasets, our Kinetics-TPS provides 7.9M annotations of 10 body parts, 7.9M part state (i.e., how a body part moves) and 0.5M interactive objects in the video frames of 24 human action classes, which bring new opportunity to understand human action by compositional learning of body parts. </p>
 						<!-- <header>
 							<h3>Demo Video</h3>
 							<p>Please choose "1080P" for better experience.</p>
@@ -80,31 +80,31 @@ author_profile: false
 						<h3>Dataset Statitics</h3>
 						</header>
 						<p style="text-align:justify; text-justify:inter-ideograph;">
-						Our <i><b>Kinetics-TPS</i></b> is a large-scale dataset which provides 7.9M annotations of 10 body parts, 4.5M part gestures and 0.5 interactive objects in the frame level, which bring new opportunity to understand human action by compositional learning of body parts in 4743 videos.
+						Our <i><b>Kinetics-TPS</i></b> contains 4741 videos with 1） bounding boxes of human instances: 1.6 M 2） bounding boxes of body parts: 7.9M (at most 10 body parts of a person). 3）part state tags of each annotated part: 7.9M (74 classes of part state) 4) bounding boxes and tags of objects: 0.5 M (75 classes of object). We briefly summarize data statistics for reference. 
 						</p>
 						<ol>
 							<li>
-								 Number of 'humans' instances per category of Kinetics-KPS.
+								 1. Number of 'humans' instances per category of Kinetics-KPS.
 								<span class="image fit"><img src="/images/kineticstps/1.png" alt="comparison with other dataset"/></span>
 							</li>
 							<li>
-								 Number of 'parts' instances per category of Kinetics-KPS.
+								 2. Number of 'parts' instances per category of Kinetics-KPS.
 								<span class="image fit"><img src="/images/kineticstps/2.png" alt="comparison with other dataset"/></span>
 							</li>
 							<li>
-								 Number of  'objects' instances per category of Kinetics-KPS.
+								 3. Number of  'objects' instances per category of Kinetics-KPS.
 								<span class="image fit"><img src="/images/kineticstps/3.png" alt="comparison with other dataset"/></span>
 							</li>
 							<li>
-								  Number of 'gestures'  instances per parts of Kinetics-KPS.
+								 4. Number of 'part state' instances per body part of Kinetics-TPS.
 								<span class="image fit"><img src="/images/kineticstps/4.png" alt="comparison with other dataset"/></span>
 							</li>
 							<li>
-								  Some 'parts-gestures' pairs instances of some categories in Kinetics-KPS.
+								  5. 'body part，part state' pairs of four exemplar classes in Kinetics-TPS..
 								<span class="image fit"><img src="/images/kineticstps/5.png" alt="comparison with other dataset"/></span>
 							</li>
 							<li>
-								  Top-5 frequent use of  'gestures' instances of parts in Kinetics-KPS.
+								  6. Top-5 'part state' tags of each body part in Kinetics-TPS.
 								<span class="image fit"><img src="/images/kineticstps/6.png" alt="comparison with other dataset"/></span>
 							</li>
 						</ol>
