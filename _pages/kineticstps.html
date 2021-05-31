@@ -129,7 +129,7 @@ author_profile: false
 							</li>
 						</ol> -->
 						<header>
-						<h3>Experiment Results</h3>
+						<h3>Baseline & Experiment Results</h3>
 						</header>
 						<p style="text-align:justify; text-justify:inter-ideograph;">
 							We provide a simple baseline for this task. First, we use ResNet50 and RoiAlign to extract part, human, object features, by using ground truth bounding boxes. Second, we concatenate these features and feed them into a MLP network to extract the refined feature of each body part. The refined part feature is used for part state recognition. Third, we perform average pooling on all refined part features of each human as the refine human feature. Then we perform average pooling on all refined human features in each sampled frame to obtain the frame-level human feature. Fourth, we perform TSN to extract visual feature of the corresponding frame. Then we concatenate the frame-level human feature and TSN feature together, and feed this feature into a MLP layer to get action score of this frame. Finally, we average action scores over frames as video-level action prediction for training. Additionally, since ground truth annotations are not available in the testing stage. Hence, we use the detected boxes of human instances and body parts for inference. Our evaluation metric is action recognition accuracy (top-1) under part state correctness. The detailed description of this evaluation metric can be found in the codalab.
