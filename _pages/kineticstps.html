@@ -4,39 +4,52 @@ permalink: /kineticstps/
 author_profile: false
 ---
 
+
+
 			<!-- Main -->
 					<p style="margin-top:3px; margin-bottom:12px">
-						FineAction: A Fined Video Dataset for Temporal Action Localization<br>
-						[<a href="https://arxiv.org/abs/2105.11107">paper</a>]
+						Kinetics-TPS Dataset: A Large-scale Video Dataset for Part-level Action Parsing.<br>
+						<!-- [<a href="https://arxiv.org/abs/2105.11107">paper</a>] -->
 					</p>
 					<p align="center" style="margin-top:12px">
-							<a href="mailto:yi.liu1@siat.ac.cn"><i class="fas fa-envelope-open-text"></i></a>&nbsp
-							<a href="https://www.yiliu.me/">Yi Liu</a>&nbsp&nbsp
-
-							<a href="mailto:lmwang.nju@gmail.com"><i class="fas fa-envelope-open-text"></i></a>&nbsp
-							<a href="http://wanglimin.github.io">Limin Wang</a>&nbsp&nbsp
 
 							<a href="mailto:xiao.ma@siat.ac.cn"><i class="fas fa-envelope-open-text"></i></a>&nbsp
-							<a href="https://scholar.google.com/citations?hl=zh-CN&user=hD948dkAAAAJ">Xiao Ma</a>&nbsp&nbsp
+							<a href="https://hypnosx.github.io/Atopos.github.io">Xiao Ma</a>&nbsp&nbsp
 
-							<a href="yl.wang@siat.ac.cn"><i class="fas fa-envelope-open-text"></i></a>&nbsp
+							<a href="mailto:ding.xia@siat.ac.cn"><i class="fas fa-envelope-open-text"></i></a>&nbsp
+							<a href=" https://github.com/xiadingZ">Ding Xia</a>&nbsp&nbsp
+
+							<a href="mailto:wangdongliang@sensetime.com"><i class="fas fa-envelope-open-text"></i></a>&nbsp
+							<a href="https://scholar.google.com/citations?user=gurERzcAAAAJ&hl=en&authuser=1">Dongliang Wang</a>&nbsp&nbsp
+
+							<a href="mailto:yl.wang@siat.ac.cn"><i class="fas fa-envelope-open-text"></i></a>&nbsp
 							<a href="https://scholar.google.com/citations?hl=zh-CN&user=hD948dkAAAAJ">Yali Wang</a>&nbsp&nbsp
+					
+							<a href="mailto:ganweihao@sensetime.com"><i class="fas fa-envelope-open-text"></i></a>&nbsp
+							<a href="https://scholar.google.com/citations?user=QIC0rCYAAAAJ&hl=en">Weihao Gan</a>&nbsp&nbsp			
 
-							<a href="yu.qiao@siat.ac.cn"><i class="fas fa-envelope-open-text"></i></a>&nbsp
+							<a href="mailto:shaojing@sensetime.com"><i class="fas fa-envelope-open-text"></i></a>&nbsp
+							<a href="https://amandajshao.github.io/">Jing Shao</a>&nbsp&nbsp
+
+							<a href="mailto:wuwei@sensetime.com"><i class="fas fa-envelope-open-text"></i></a>&nbsp
+							<a href="https://wuwei-ai.org/">Wei Wu</a>&nbsp&nbsp
+
+							<a href="mailto:yanjunjie@sensetime.com"><i class="fas fa-envelope-open-text"></i></a>&nbsp
+							<a href="https://yan-junjie.github.io/">Junjie Yan</a>&nbsp&nbsp
+
+							<a href="mailto:yu.qiao@siat.ac.cn"><i class="fas fa-envelope-open-text"></i></a>&nbsp
 							<a href="http://mmlab.siat.ac.cn/yuqiao">Yu Qiao</a>&nbsp&nbsp
-							
-
 					</p>
 					<p align="center">
 						<a href="http://mmlab.siat.ac.cn">MMLAB @ Shenzhen Institute of Advanced Technology</a>
 					</p>
 					<p align="center">
-						<a href="http://mcg.nju.edu.cn/en/index.html">MCG Group @ Nanjing University</a>
+						<a href="www.sensetime.com"> SenseTime Group Limited </a>
 					</p>
 					<div class="box">
 						<center>
 						<span class="image fit">
-						<img src='/images/refinedaction.gif'>
+						<img src='/images/track3_ori.gif'>
 						</span>
 						</center>
 						<!-- <span class="image fit">
@@ -50,7 +63,7 @@ author_profile: false
 						<header>
 						<h3>Abstract</h3>
 						</header>
-						<p style="text-align:justify; text-justify:inter-ideograph;">On the existing benchmark datasets, THUMOS14 and ActivityNet, temporal action localization techniques have achieved great success. However, there are still existing some problems, such as the source of the action is too single, there are only sports categories in THUMOS14,  coarse instances with uncertain boundaries in ActivityNet and HACS Segments interfering with proposal generation and behavior prediction.To take temporal action localization to a new level, we develop <i><b>FineAction</i></b>, a new large-scale fined video dataset collected from existing video datasets and web videos. Overall, this dataset contains 139K fined action instances densely annotated in almost 17K untrimmed videos spanning 106 action categories. FineAction has a more fined definition of action categories and high-quality annotations to reduce the boundary uncertainty compared to the existing action localization datasets. We systematically investigate representative methods of temporal action localization on our dataset and obtain some interesting findings with further analysis. Experimental results reveal that our FineAction brings new challenges for action localization on fined and multi-label instances with shorter duration. This dataset will be public in the future and we hope our FineAction could advance research towards temporal action localization.</p>
+						<p style="text-align:justify; text-justify:inter-ideograph;">Traditionally, action recognition has been treated as a high-level video classification problem. However, such manner ignores detailed and middle-level understanding about human actions. To fill this gap, we deeply investigate action recognition in videos, by explicitly encoding human actions as spatio-temporal composition of body parts. Specifically, we develop a large-scale Kinetics-Temporal Part State (<b>Kinetics-TPS</b>) benchmark for this study. Different from existing video action datasets, our Kinetics-TPS provides 7.9M annotations of 10 body parts, 7.9M part state (i.e., how a body part moves) and 0.5M interactive objects in the video frames of 24 human action classes, which bring new opportunity to understand human action by compositional learning of body parts. </p>
 						<!-- <header>
 							<h3>Demo Video</h3>
 							<p>Please choose "1080P" for better experience.</p>
@@ -67,20 +80,32 @@ author_profile: false
 						<h3>Dataset Statitics</h3>
 						</header>
 						<p style="text-align:justify; text-justify:inter-ideograph;">
-						Our <i><b>FineAction</i></b> is a large-scale dataset that is suitable for training deep learning models, which contains 103,324 instances for a total of 705 video hours. As a consequence, the number of instances in FineAction is as great as 6.17 per video and 975 per category. 
+						Our <i><b>Kinetics-TPS</i></b> contains 4741 videos with 1） bounding boxes of human instances: 1.6 M 2） bounding boxes of body parts: 7.9M (at most 10 body parts of a person). 3）part state tags of each annotated part: 7.9M (74 classes of part state) 4) bounding boxes and tags of objects: 0.5 M (75 classes of object). We briefly summarize data statistics for reference. 
 						</p>
 						<ol>
 							<li>
-								Comparing FineAction with existing datasets for temporal action localization.
-								<span class="image fit"><img src="/images/fineaction/tab1.png" alt="comparison with other dataset"/></span>
+								 Number of 'humans' instances per category of Kinetics-KPS.
+								<span class="image fit"><img src="/images/kineticstps/1.png" alt="comparison with other dataset"/></span>
 							</li>
 							<li>
-								Number of instances per category for FineAction.
-								<span class="image fit"><img src="/images/fineaction/pic1.png" alt="comparison with other dataset"/></span>
+								 Number of 'parts' instances per category of Kinetics-KPS.
+								<span class="image fit"><img src="/images/kineticstps/2.png" alt="comparison with other dataset"/></span>
 							</li>
 							<li>
-								Comparison of datasets: the number of instances  (a) and categories per video (c). The distribution of duration of instances (b) and overlap (d) on FineAction.
-								<span class="image fit"><img src="/images/fineaction/pic2.png" alt="number of instances"/></span>
+								 Number of  'objects' instances per category of Kinetics-KPS.
+								<span class="image fit"><img src="/images/kineticstps/3.png" alt="comparison with other dataset"/></span>
+							</li>
+							<li>
+								 Number of 'part state' instances per body part of Kinetics-TPS.
+								<span class="image fit"><img src="/images/kineticstps/4.png" alt="comparison with other dataset"/></span>
+							</li>
+							<li>
+								  'body part，part state' pairs of four exemplar classes in Kinetics-TPS.
+								<span class="image fit"><img src="/images/kineticstps/5.png" alt="comparison with other dataset"/></span>
+							</li>
+							<li>
+								  Top-5 'part state' tags of each body part in Kinetics-TPS.
+								<span class="image fit"><img src="/images/kineticstps/6.png" alt="comparison with other dataset"/></span>
 							</li>
 						</ol>
 						<!-- <header>
@@ -104,18 +129,25 @@ author_profile: false
 							</li>
 						</ol> -->
 						<header>
-						<h3>Experiment Results</h3>
+						<h3>Baseline & Experiment Results</h3>
 						</header>
-						<ol>
-							<li>
-							Comparisons with state-of-the-art proposal generation methods on our FineAction in terms of AR@AN, where SNMS stands forSoft-NMS.
-							<span class="image fit"><img src="/images/fineaction/exp2.png" alt="Comparison of SOTA methods" /></span>
-							</li>
-							<li>
+						<p style="text-align:justify; text-justify:inter-ideograph;">
+							We provide a simple baseline for this task. First, we use ResNet50 and RoiAlign to extract part, human, object features, by using ground truth bounding boxes. Second, we concatenate these features and feed them into a MLP network to extract the refined feature of each body part. The refined part feature is used for part state recognition. Third, we perform average pooling on all refined part features of each human as the refined human feature. Then we perform average pooling on all refined human features in each sampled frame to obtain the frame-level human feature. Fourth, we perform TSN to extract visual feature of the corresponding frame. Then we concatenate the frame-level human feature and TSN feature together, and feed this feature into a MLP layer to get action score of this frame. Finally, we average action scores over frames as video-level action prediction for training. Additionally, since ground truth annotations are not available in the testing stage. Hence, we use the detected boxes of human instances and body parts for inference. 							
+						</p>
+						<span class="image fit"><img src="/images/kineticstps/bs.png" alt="Baseline" /></span>
+
+
+						<p style="text-align:justify; text-justify:inter-ideograph;">
+					
+						</p>Given IoU between the predicted and ground truth boxes (Default: IoU_Human=0.5, IoU_BodyPart=0.3), we compute top-1 accuracy of video action classification conditioned on the threshold of part state correctness. Then, we compute the area under curve as our final evaluation metric. The detailed description of part state correctness and the evaluation metric can be found in the codalab.
+						<span class="image fit"><img src="/images/kineticstps/exp.png" alt="Experiment" /></span>
+
+							
+							<!-- <li>
 							Performance evaluation of state-of-the-art methods on our FineAction in terms of mAP at IoU thresholds from 0.3 to 0.7.
 							<span class="image fit"><img src="/images/fineaction/exp3.png" alt="Comparison between SlowFast and SlowOnly" /></span>
-							</li>
-						</ol>
+							</li> -->
+						
 						<header>
 						<h3>Download</h3>
 						<p>WILL BE UPDATED LATER</p>
