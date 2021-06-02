@@ -16,6 +16,9 @@ Challenge and Workshop on Localized and Detailed Understanding of Human Actions 
 
 ## NEWS
 
+- <u>2021-06-01</u><br>
+  - We have published competitions for <a href="https://competitions.codalab.org/competitions/32363?secret_key=b1c97675-29b9-4231-b3e4-faed47501214">FineAction (Track 1)</a>, <a href="https://competitions.codalab.org/competitions/32066">MultiSports (Track 2)</a> and <a href="https://competitions.codalab.org/competitions/32360?secret_key=fcd9a59a-d221-4e21-a7de-a85302d3848c">Kinetics-TPS (Track 3)</a>. Competitions start at <b>June 1, 2021, midnight UTC</b> and finish at <b>Sept. 10, 2021, 11:59 p.m. UTC</b>.
+  - Data for training and validation is now available on the competition pages above.
 - <u>2021-05-26</u><br>
   - Paper on FineAction (dataset for Track 1) can now be found <a href="https://arxiv.org/abs/2105.11107">here</a>.<br>
   - Paper on MultiSports (dataset for Track 2) can now be found <a href="https://arxiv.org/abs/2105.07404">here</a>.
