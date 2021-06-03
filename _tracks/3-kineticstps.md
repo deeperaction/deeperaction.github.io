@@ -1,6 +1,6 @@
 ---
 title: "Kinetics-TPS Challenge on Part-level Action Parsing"
-excerpt: "Decomposing the action instance into a human part graph and detecting action labels for all human parts an as well the whole human. <br/><img src='/images/track3.gif'>"
+excerpt: "Predicting human location, body part location, part state in the frame level, and then integrate these results together to predict human action in the video level. <br/><img src='/images/track3.gif'>"
 collection: tracks
 ---
 
