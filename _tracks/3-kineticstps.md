@@ -7,7 +7,7 @@ collection: tracks
 <img src='/images/track3_ori.gif' width="500" height="300">
 {:.text-center}
 
-**Track Organizers**: Xiao Ma, Ding Xia, Dongliang Wang, Weihao Gan 
+**Track Organizers**: Xiao Ma, Ding Xia, Dongliang Wang, Weihao Gan, Junwei He 
 
 Traditionally, action recognition has been treated as a high-level video classification problem. However, this manner ignores a detailed understanding of human actions. To fill this gap, we first develop a large-scale Kinetics-Temporal Part State (Kinetics-TPS) benchmark for this study. Kinetics-TPS provides part-level annotations in each video, which brings new opportunity to recognize a human action by compositional learning of body part state in videos.
 {:.text-justify}
