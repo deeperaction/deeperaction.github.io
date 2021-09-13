@@ -50,7 +50,15 @@ author_profile: false
 						<header>
 						<h3>Abstract</h3>
 						</header>
-						<p style="text-align:justify; text-justify:inter-ideograph;">On the existing benchmark datasets, THUMOS14 and ActivityNet, temporal action localization techniques have achieved great success. However, there are still existing some problems, such as the source of the action is too single, there are only sports categories in THUMOS14,  coarse instances with uncertain boundaries in ActivityNet and HACS Segments interfering with proposal generation and behavior prediction.To take temporal action localization to a new level, we develop <i><b>FineAction</i></b>, a new large-scale fined video dataset collected from existing video datasets and web videos. Overall, this dataset contains 139K fined action instances densely annotated in almost 17K untrimmed videos spanning 106 action categories. FineAction has a more fined definition of action categories and high-quality annotations to reduce the boundary uncertainty compared to the existing action localization datasets. We systematically investigate representative methods of temporal action localization on our dataset and obtain some interesting findings with further analysis. Experimental results reveal that our FineAction brings new challenges for action localization on fined and multi-label instances with shorter duration. This dataset will be public in the future and we hope our FineAction could advance research towards temporal action localization.</p>
+						<p style="text-align:justify; text-justify:inter-ideograph;">Temporal action localization (TAL) is an important and challenging problem in video understanding.
+							 However, most existing TAL benchmarks are built upon the coarse granularity of action classes, which exhibits two major limitations in this task. 
+							 First, coarse-level actions can make the localization models overfit in high-level context information, and ignore the atomic action details in the video. 
+							 Second, the coarse action classes often lead to the ambiguous annotations of temporal boundaries, which are inappropriate for temporal action localization. 
+							 To tackle these problems, we develop a novel large-scale and fine-grained video dataset, coined as <i><b>FineAction</i></b>, for temporal action localization. 
+							 In total, FineAction contains 103K temporal instances of 106 action categories, annotated in 17K untrimmed videos. 
+							 FineAction introduces new opportunities and challenges for temporal action localization, thanks to its distinct characteristics of fine action classes with rich diversity, dense annotations of multiple instances, and co-occurring actions of different classes. 
+							 To benchmark FineAction, we systematically investigate the performance of several popular temporal localization methods on it, and deeply analyze the influence of short-duration and fine-grained instances in temporal action localization. 
+							 We believe that FineAction can advance research of temporal action localization and beyond.</p>
 						<!-- <header>
 							<h3>Demo Video</h3>
 							<p>Please choose "1080P" for better experience.</p>
@@ -71,16 +79,12 @@ author_profile: false
 						</p>
 						<ol>
 							<li>
-								Comparing FineAction with existing datasets for temporal action localization.
-								<span class="image fit"><img src="/images/fineaction/tab1.png" alt="comparison with other dataset"/></span>
+								Comparison with Related Benchmarks. Our FineAction is unique due to its fine-grained action classes, multi-label and dense annotations, relatively large-scale capacity, and rich action diversity. 
+								<span class="image fit"><img src="/images/fineaction/tab1.png"  /></span>
 							</li>
 							<li>
-								Number of instances per category for FineAction.
-								<span class="image fit"><img src="/images/fineaction/pic1.png" alt="comparison with other dataset"/></span>
-							</li>
-							<li>
-								Comparison of datasets: the number of instances  (a) and categories per video (c). The distribution of duration of instances (b) and overlap (d) on FineAction.
-								<span class="image fit"><img src="/images/fineaction/pic2.png" alt="number of instances"/></span>
+								Number of instances per category. We plot the instance distribution of all the bottom-level categories in each top-level category. All the plots exhibit the natural long-tailed distribution.
+								<span class="image fit"><img src="/images/fineaction/fig1.png"  /></span>
 							</li>
 						</ol>
 						<!-- <header>
@@ -108,12 +112,12 @@ author_profile: false
 						</header>
 						<ol>
 							<li>
-							Comparisons with state-of-the-art proposal generation methods on our FineAction in terms of AR@AN, where SNMS stands forSoft-NMS.
-							<span class="image fit"><img src="/images/fineaction/exp2.png" alt="Comparison of SOTA methods" /></span>
+								Comparison of the state-of-the-art methods on the validation set of FineAction. Left: evaluation on action proposal generation, in terms of AR@AN. Right : evaluation on action detection, in terms of mAP at IoU thresholds from 0.5 to 0.95.
+							<span class="image fit"><img src="/images/fineaction/exp1.png"   /></span>
 							</li>
 							<li>
-							Performance evaluation of state-of-the-art methods on our FineAction in terms of mAP at IoU thresholds from 0.3 to 0.7.
-							<span class="image fit"><img src="/images/fineaction/exp3.png" alt="Comparison between SlowFast and SlowOnly" /></span>
+								Error analysis on FineAction. (a)  Left : the error distribution over the number of predictions per video. G means the number of Ground-Truth instances. Right: the impact of error types, measured by the improvement gained from resolving a particular type of error. (b) Visualization of typical failure cases on FineAction. 
+							<span class="image fit"><img src="/images/fineaction/exp2.png"   /></span>
 							</li>
 						</ol>
 						<header>
