@@ -16,6 +16,9 @@ Challenge and Workshop on Localized and Detailed Understanding of Human Actions 
 
 ## NEWS
 
+- <u>2021-09-10</u><br>
+  - Due to a problem with the codalab server which causes uploading failure, we decide to postpone the test phase and winner annonuncement for 2 days.
+
 - <u>2021-07-07</u><br>
   - Participants can now register on <a href="https://competitions.codalab.org/competitions/33355">MultiSports (Track 2) - test</a>. Please submit results for evaluation on this website.
 
