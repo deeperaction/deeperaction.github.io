@@ -16,11 +16,14 @@ Challenge and Workshop on Localized and Detailed Understanding of Human Actions 
 
 ## NEWS
 
+- <u>2021-09-17</u><br>
+  - The leader board is released. Thanks for participation in our challenge.  In summary, we receive 42 valid submissions for <a href="https://competitions.codalab.org/competitions/32363?secret_key=b1c97675-29b9-4231-b3e4-faed47501214">Track 1</a>, 42 submissions for <a href="https://competitions.codalab.org/competitions/33355">Track 2</a>, 58 submissions for <a href="https://competitions.codalab.org/competitions/32360?secret_key=fcd9a59a-d221-4e21-a7de-a85302d3848c">Track 3</a>. Please check the competition pages for detailed information.
+
 - <u>2021-09-10</u><br>
   - Due to a problem with the codalab server which causes uploading failure, we decide to postpone the test phase and winner annonuncement for 2 days.
 
 - <u>2021-07-07</u><br>
-  - Participants can now register on <a href="https://competitions.codalab.org/competitions/33355">MultiSports (Track 2) - test</a>. Please submit results for evaluation on this website.
+  - Participants can now register on MultiSports (Track 2) - test</a>. Please submit results for evaluation on this website.
 
 - <u>2021-06-01</u><br>
   - We have published competitions for <a href="https://competitions.codalab.org/competitions/32363?secret_key=b1c97675-29b9-4231-b3e4-faed47501214">FineAction (Track 1)</a>, <a href="https://competitions.codalab.org/competitions/32066">MultiSports (Track 2)</a> and <a href="https://competitions.codalab.org/competitions/32360?secret_key=fcd9a59a-d221-4e21-a7de-a85302d3848c">Kinetics-TPS (Track 3)</a>. Competitions start at <b>June 1, 2021, midnight UTC</b> and finish at <b>Sept. 10, 2021, 11:59 p.m. UTC</b>.
