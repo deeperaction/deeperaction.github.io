@@ -85,7 +85,7 @@ In this challenge, we have received 58 valid submissions for final evaluation. W
   </tr>
   <tr>
     <td>3rd Place Winners</td>
-    <td>University of Electronic Science and Technology of China & Zhejiang Lab [<a href="/report2/track3-top2.pdf">report</a>]</td> 
+    <td>University of Electronic Science and Technology of China & Zhejiang Lab [<a href="/report2/track3-top3.pdf">report</a>]</td> 
     <td>0.6050</td>
   </tr>
 </table>
