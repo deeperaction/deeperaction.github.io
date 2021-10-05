@@ -10,6 +10,30 @@ redirect_from:
 
 ## Track 1
 
+
+In this challenge, we have received 42 valid submissions for final evaluation. Winner teams' performance and reports can be found below.
+{:.text-justify}
+
+<table>
+  <tr>
+    <td><b>Rank</b></td>
+    <td><b>Team</b></td> 
+    <td><b>Avg.mAP</b></td>
+  </tr>
+  <tr>
+    <td>1st Place Winners</td>
+    <td>Dahua Technology [<a href="/report2/track1-top1.pdf">report</a>]</td> 
+    <td>23.352</td>
+  </tr>
+  <tr>
+    <td>2nd Place Winners</td>
+    <td>Institute of Automation [<a href="/report2/track1-top2.pdf">report</a>]</td> 
+    <td>13.023</td>
+  </tr>
+</table>
+
+
+
 ## Track 2 - MultiSports Challenge on Spatio-Temporal Action Detection
 
 In this challenge, we have received 42 valid submissions for final evaluation. Winner teams' performance and reports can be found below.
@@ -39,3 +63,29 @@ In this challenge, we have received 42 valid submissions for final evaluation. W
 </table>
 
 ## Track 3
+
+In this challenge, we have received 58 valid submissions for final evaluation. Winner teams' performance and reports can be found below.
+{:.text-justify}
+
+<table>
+  <tr>
+    <td><b>Rank</b></td>
+    <td><b>Team</b></td> 
+    <td><b>Score</b></td>
+  </tr>
+  <tr>
+    <td>1st Place Winners</td>
+    <td>Hikvision Research Institute [<a href="/report2/track3-top1.pdf">report</a>]</td> 
+    <td>0.6305</td>
+  </tr>
+  <tr>
+    <td>2nd Place Winners</td>
+    <td>University of Science and Technology of China & JD AI Research [<a href="/report2/track3-top2.pdf">report</a>]</td> 
+    <td>0.6137</td>
+  </tr>
+  <tr>
+    <td>3rd Place Winners</td>
+    <td>University of Electronic Science and Technology of China & Zhejiang Lab [<a href="/report2/track3-top2.pdf">report</a>]</td> 
+    <td>0.6050</td>
+  </tr>
+</table>
