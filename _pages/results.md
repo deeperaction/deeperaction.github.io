@@ -8,7 +8,7 @@ redirect_from:
 
 {% include base_path %}
 
-## Track 1
+## Track 1 - FineAction Challenge on Temporal Action Localization
 
 
 In this challenge, we have received 42 valid submissions for final evaluation. Winner teams' performance and reports can be found below.
@@ -62,7 +62,7 @@ In this challenge, we have received 42 valid submissions for final evaluation. W
   </tr>
 </table>
 
-## Track 3
+## Track 3 - Kinetics-TPS Challenge on Part-level Action Parsing
 
 In this challenge, we have received 58 valid submissions for final evaluation. Winner teams' performance and reports can be found below.
 {:.text-justify}
