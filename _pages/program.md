@@ -8,13 +8,62 @@ redirect_from:
 
 {% include base_path %}
 
-02:00 - 02:10 $\quad$ DeeperAction challenge introduction<br> 
-02:10 - 02:40 $\quad$ Invited Talk 1<br>
-02:40 - 03:00 $\quad$ Challenge 1 Introduction<br>
-03:00 - 03:20 $\quad$ Challenge 1 winner talk and Q&A<br>
-03:20 - 03:50 $\quad$ Invited Talk 2<br>
-03:50 - 04:10 $\quad$ Challenge 2 Introduction<br>
-04:10 - 04:30 $\quad$ Challenge 2 winner talk and Q&A<br>
-04:30 - 04:50 $\quad$ Challenge 3 Introduction<br>
-04:50 - 05:10 $\quad$ Challenge 3 winner talk and Q&A<br>
-05:10 - 05:20 $\quad$ Closing and award<br>
+ICCV will once again be virtual this year and the workshop will be held on Monday 11th October 2021 as a half day event. Detailed information is listed below.
+
+<table border=0px>
+<tr>
+  <td> <b>Time (EDT)</b> </td>
+  <td> <b>Content</b> </td>
+  <td> <b>Presenter</b> </td>
+</tr>
+<tr>
+  <td> 02:00 - 02:10 AM</td>
+  <td> DeeperAction challenge introduction </td>
+  <td>  </td>
+</tr>
+<tr>
+  <td> 02:10 - 02:40 AM</td>
+  <td> (Invited Talk 1) </td>
+  <td> Chen Sun </td>
+</tr>
+<tr>
+  <td> 02:40 - 03:00 AM</td>
+  <td> (Introduction) Track 1 - FineAction Challenge on Temporal Action Localization </td>
+  <td>  </td>
+</tr>
+<tr>
+  <td> 03:00 - 03:20 AM</td>
+  <td> Winner Talk for Track 1 by team from <u>Dahua Technology</u> </td>
+  <td>  </td>
+</tr>
+<tr>
+  <td> 03:20 - 03:50 AM</td>
+  <td> (Invited Talk 2) </td>
+  <td> Gül Varol </td>
+</tr>
+<tr>
+  <td> 03:50 - 04:10 AM</td>
+  <td> (Introduction) Track 2 - MultiSports Challenge on Spatio-Temporal Action Detection </td>
+  <td>  </td>
+</tr>
+<tr>
+  <td> 04:10 - 04:30 AM</td>
+  <td> Winner Talk for Track 2 by team from <u>Huawei Noah's Ark Lab & USTC</u></td>
+  <td>  </td>
+</tr>
+<tr>
+  <td> 04:30 - 04:50 AM</td>
+  <td> (Introduction) Track 3 - Kinetics-TPS Challenge on Part-level Action Parsing </td>
+  <td>  </td>
+</tr>
+<tr>
+  <td> 04:50 - 05:10 AM</td>
+  <td> Winner Talk for Track 3 by team from <u>Hikvision Research Institute</u> </td>
+  <td>  </td>
+</tr>
+<tr>
+  <td> 05:10 - 05:20 AM</td>
+  <td> Closing and award </td>
+  <td>  </td>
+</tr>
+</table>

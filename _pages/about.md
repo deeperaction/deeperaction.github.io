@@ -15,6 +15,9 @@ Challenge and Workshop on Localized and Detailed Understanding of Human Actions 
 {% include slider.html selector="slider_title" %}
 
 ## NEWS
+- <u>2021-10-05</u><br>
+  - Winner reports can now be downloaded in <a href="results">Challenge Results</a>.
+  - Details about our workshop schedule have been updated in <a href="program">Program Schedule</a>.
 
 - <u>2021-09-17</u><br>
   - The leader board is released. Thanks for participation in our challenge.  In summary, we receive 42 valid submissions for <a href="https://competitions.codalab.org/competitions/32363?secret_key=b1c97675-29b9-4231-b3e4-faed47501214">Track 1</a>, 42 submissions for <a href="https://competitions.codalab.org/competitions/33355">Track 2</a>, 58 submissions for <a href="https://competitions.codalab.org/competitions/32360?secret_key=fcd9a59a-d221-4e21-a7de-a85302d3848c">Track 3</a>. Please check the competition pages for detailed information.
@@ -34,7 +37,7 @@ Challenge and Workshop on Localized and Detailed Understanding of Human Actions 
 
 ## Attending the Workshop
 
-ICCV will once again be virtual this year and the workshop will be held on Monday 11th October 2021 as a half day event. More information about attending the workshop is coming soon.
+ICCV will once again be virtual this year and the workshop will be held on Monday 11th October 2021 as a half day event. Please refer to <a href="program/">this page</a> for more information.
 {:.text-justify}
 
 ## Aims and Scope
