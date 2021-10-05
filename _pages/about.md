@@ -16,7 +16,7 @@ Challenge and Workshop on Localized and Detailed Understanding of Human Actions 
 
 ## NEWS
 - <u>2021-10-05</u><br>
-  - Winner reports can now be downloaded in <a href="results">Challenge Results</a>.
+  - Winners are announced and reports can now be downloaded in <a href="results">Challenge Results</a>.
   - Details about our workshop schedule have been updated in <a href="program">Program Schedule</a>.
 
 - <u>2021-09-17</u><br>
