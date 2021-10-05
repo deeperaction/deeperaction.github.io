@@ -2,6 +2,8 @@
 main:
   - title: "Tracks"
     url: /tracks/
+  - title: "Challenge Results"
+    url: /results/
   - title: "Important Dates"
     url: /importantdates/
   - title: "Organizers"
