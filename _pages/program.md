@@ -17,52 +17,52 @@ ICCV will once again be virtual this year and the workshop will be held on Monda
   <td> <b>Presenter</b> </td>
 </tr>
 <tr>
-  <td> 02:00 - 02:10 AM</td>
+  <td> 02:00 - 02:10 PM</td>
   <td> DeeperAction challenge introduction </td>
   <td>  </td>
 </tr>
 <tr>
-  <td> 02:10 - 02:40 AM</td>
+  <td> 02:10 - 02:40 PM</td>
   <td> (Invited Talk 1) </td>
   <td> Chen Sun </td>
 </tr>
 <tr>
-  <td> 02:40 - 03:00 AM</td>
+  <td> 02:40 - 03:00 PM</td>
   <td> (Introduction) Track 1 - FineAction Challenge on Temporal Action Localization </td>
   <td>  </td>
 </tr>
 <tr>
-  <td> 03:00 - 03:20 AM</td>
+  <td> 03:00 - 03:20 PM</td>
   <td> Winner Talk for Track 1 by team from <u>Dahua Technology</u> </td>
   <td>  </td>
 </tr>
 <tr>
-  <td> 03:20 - 03:50 AM</td>
+  <td> 03:20 - 03:50 PM</td>
   <td> (Invited Talk 2) </td>
   <td> Gül Varol </td>
 </tr>
 <tr>
-  <td> 03:50 - 04:10 AM</td>
+  <td> 03:50 - 04:10 PM</td>
   <td> (Introduction) Track 2 - MultiSports Challenge on Spatio-Temporal Action Detection </td>
   <td>  </td>
 </tr>
 <tr>
-  <td> 04:10 - 04:30 AM</td>
+  <td> 04:10 - 04:30 PM</td>
   <td> Winner Talk for Track 2 by team from <u>Huawei Noah's Ark Lab & USTC</u></td>
   <td>  </td>
 </tr>
 <tr>
-  <td> 04:30 - 04:50 AM</td>
+  <td> 04:30 - 04:50 PM</td>
   <td> (Introduction) Track 3 - Kinetics-TPS Challenge on Part-level Action Parsing </td>
   <td>  </td>
 </tr>
 <tr>
-  <td> 04:50 - 05:10 AM</td>
+  <td> 04:50 - 05:10 PM</td>
   <td> Winner Talk for Track 3 by team from <u>Hikvision Research Institute</u> </td>
   <td>  </td>
 </tr>
 <tr>
-  <td> 05:10 - 05:20 AM</td>
+  <td> 05:10 - 05:20 PM</td>
   <td> Closing and award </td>
   <td>  </td>
 </tr>
