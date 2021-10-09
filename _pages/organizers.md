@@ -45,3 +45,9 @@ Google Research<br>
 **Luc Van Gool**<br>
 CVL ETHZ, and KU Leuven<br>
 [vangool@vision.ee.ethz.ch](vangool@vision.ee.ethz.ch)
+
+
+## Sponsor
+**AMAX Information Technologies（Suzhou）CO.,LTD.**<br>
+<br>
+![](sponsor.png)
