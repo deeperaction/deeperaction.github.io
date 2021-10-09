@@ -52,7 +52,7 @@ In this challenge, we have received 42 valid submissions for final evaluation. W
   </tr>
   <tr>
     <td>2nd Place Winners</td>
-    <td>MideaGroup [<a href="/report2/Midea_AIIC_Technical_Report.pdf">report</a>]</td> 
+    <td>Midea Group [<a href="/report2/Midea_AIIC_Technical_Report.pdf">report</a>]</td> 
     <td>19.132</td>
   </tr>
   <tr>
