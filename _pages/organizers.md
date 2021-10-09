@@ -49,4 +49,4 @@ CVL ETHZ, and KU Leuven<br>
 
 ## Sponsor
 **AMAX Information Technologies（Suzhou）CO.,LTD.**<br>
-![sp](sponsor.png= 1012x323)
+![](sponsor.png)
