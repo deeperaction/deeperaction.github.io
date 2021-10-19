@@ -46,6 +46,8 @@ Google Research<br>
 CVL ETHZ, and KU Leuven<br>
 [vangool@vision.ee.ethz.ch](vangool@vision.ee.ethz.ch)
 
+## Supporting organizations
+![](/images/organizations.png)
 
 ## Sponsor
 **AMAX Information Technologies（Suzhou）CO.,LTD.**<br>
