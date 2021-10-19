@@ -28,7 +28,7 @@ ICCV will once again be virtual this year and the workshop will be held on Monda
 </tr>
 <tr>
   <td> 02:40 - 03:00 PM</td>
-  <td> (Introduction) Track 1 - FineAction Challenge on Temporal Action Localization </td>
+  <td> (Introduction) Track 1 - FineAction Challenge on Temporal Action Localization [<a href="/program_slides/track1-introduction.pdf">pdf</a>]</td>
   <td>  </td>
 </tr>
 <tr>
@@ -53,7 +53,7 @@ ICCV will once again be virtual this year and the workshop will be held on Monda
 </tr>
 <tr>
   <td> 04:30 - 04:50 PM</td>
-  <td> (Introduction) Track 3 - Kinetics-TPS Challenge on Part-level Action Parsing </td>
+  <td> (Introduction) Track 3 - Kinetics-TPS Challenge on Part-level Action Parsing [<a href="/program_slides/track3-introduction.pdf">pdf</a>]</td>
   <td>  </td>
 </tr>
 <tr>
