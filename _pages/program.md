@@ -18,7 +18,7 @@ ICCV will once again be virtual this year and the workshop will be held on Monda
 </tr>
 <tr>
   <td> 02:00 - 02:10 PM</td>
-  <td> DeeperAction challenge introduction </td>
+  <td> DeeperAction challenge introduction [<a href="/program_slides/deeperaction_opening.pdf">pdf</a>]</td>
   <td>  </td>
 </tr>
 <tr>
@@ -63,7 +63,7 @@ ICCV will once again be virtual this year and the workshop will be held on Monda
 </tr>
 <tr>
   <td> 05:10 - 05:20 PM</td>
-  <td> Closing and award </td>
+  <td> Closing and award [<a href="/program_slides/deeperaction_closing.pdf">pdf</a>]</td>
   <td>  </td>
 </tr>
 </table>
