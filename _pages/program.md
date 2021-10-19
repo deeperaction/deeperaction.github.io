@@ -33,7 +33,7 @@ ICCV will once again be virtual this year and the workshop will be held on Monda
 </tr>
 <tr>
   <td> 03:00 - 03:20 PM</td>
-  <td> Winner Talk for Track 1 by team from <u>Dahua Technology</u> </td>
+  <td> Winner Talk for Track 1 by team from <u>Dahua Technology</u> [<a href="/program_slides/track1-presentation.pdf">pdf</a>]</td>
   <td>  </td>
 </tr>
 <tr>
@@ -58,7 +58,7 @@ ICCV will once again be virtual this year and the workshop will be held on Monda
 </tr>
 <tr>
   <td> 04:50 - 05:10 PM</td>
-  <td> Winner Talk for Track 3 by team from <u>Hikvision Research Institute</u> </td>
+  <td> Winner Talk for Track 3 by team from <u>Hikvision Research Institute</u> [<a href="/program_slides/track3-presentation.pdf">pdf</a>]</td>
   <td>  </td>
 </tr>
 <tr>
