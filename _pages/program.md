@@ -23,7 +23,7 @@ ICCV will once again be virtual this year and the workshop will be held on Monda
 </tr>
 <tr>
   <td> 02:10 - 02:40 PM</td>
-  <td> (Invited Talk 1) Detailed Human Action Understanding from Unlabeled Videos</td>
+  <td> (Invited Talk 1) Detailed Human Action Understanding from Unlabeled Videos [<a href="/program_slides/deeperaction_talk_chen.pdf">pdf</a>]</td>
   <td> Chen Sun </td>
 </tr>
 <tr>
@@ -38,7 +38,7 @@ ICCV will once again be virtual this year and the workshop will be held on Monda
 </tr>
 <tr>
   <td> 03:20 - 03:50 PM</td>
-  <td> (Invited Talk 2) Beyond Action Recognition: Detailed Video Modeling</td>
+  <td> (Invited Talk 2) Beyond Action Recognition: Detailed Video Modeling [<a href="/program_slides/deeperaction_talk_gul.pdf">pdf</a>]</td>
   <td> Gül Varol </td>
 </tr>
 <tr>
