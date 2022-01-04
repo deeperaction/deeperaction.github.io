@@ -15,6 +15,9 @@ Challenge and Workshop on Localized and Detailed Understanding of Human Actions 
 {% include slider.html selector="slider_title" %}
 
 ## NEWS
+- <u>2022-01-04</u><br>
+  - We changed the calculation of PR (Precision-Recall) curve area same with PASCAL VOC in our GitHub repository (<a href="https://github.com/MCG-NJU/MultiSports">https://github.com/MCG-NJU/MultiSports</a>).
+
 - <u>2021-10-19</u><br>
   - Slides are now available at <a href="program">Program Schedule</a>.
 
