@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+    <!-- Jekyll Ideal Image Slider Include -->
+    <!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
+    <!-- v1.8 -->
+    <meta charset="utf-8"> <!-- begin SEO -->
+    <title>FineAction Dataset - DeeperAction</title>
+    <meta property="og:locale" content="en-US">
+    <meta property="og:site_name" content="DeeperAction">
+    <meta property="og:title" content="FineAction Dataset">
+    <link rel="canonical" href="index.html">
+    <meta property="og:url" content="https://deeperaction.github.io/fineaction/">
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Person",
+            "name": "DeeperAction",
+            "url": "https://deeperaction.github.io",
+            "sameAs": null
+        }
+    </script> <!-- end SEO -->
+    <link href="../feed.xml" type="application/atom+xml" rel="alternate" title="DeeperAction Feed">
+    <!-- http://t.co/dKP3o1e -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+    </script> <!-- For all browsers -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <meta http-equiv="cleartype" content="on"> <!-- start custom head snippets -->
+    <!-- <link rel="apple-touch-icon" sizes="57x57" href="https://deeperaction.github.io/images/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://deeperaction.github.io/images/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://deeperaction.github.io/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://deeperaction.github.io/images/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114"
+        href="https://deeperaction.github.io/images/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120"
+        href="https://deeperaction.github.io/images/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144"
+        href="https://deeperaction.github.io/images/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152"
+        href="https://deeperaction.github.io/images/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="https://deeperaction.github.io/images/apple-touch-icon-180x180.png"> -->
+    <link rel="icon" type="image/png" href="../images/favicon-32x32.png" sizes="32x32">
+    <!-- <link rel="icon" type="image/png" href="https://deeperaction.github.io/images/android-chrome-192x192.png"
+        sizes="192x192"> -->
+    <link rel="icon" type="image/png" href="../images/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="../images/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="../images/manifest.json">
+    <link rel="mask-icon" href="../images/safari-pinned-tab.svg" color="#000000">
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#000000">
+    <!-- <meta name="msapplication-TileImage" content="https://deeperaction.github.io/images/mstile-144x144.png">
+    <meta name="msapplication-config" content="https://deeperaction.github.io/images/browserconfig.xml"> -->
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="../assets/css/academicons.css" />
+    <!-- <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); 
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ], processEscapes: true } }); </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script> -->
+    <!-- end custom head snippets -->
+</head>
+
+<body>
+    <!--[if lt IE 9]><div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+    <div style="background-image: url('../images/top_no_text.png'); background-size: 100% 100%; height:200px; border=20px; min-width: 760px;"
+        class="center">
+        <div style="background-color: rgba(256,256,256,0.6); width: 100%; height: 100%; min-width: 760px;">
+            <div style="width: 96%; height: 96%; margin: 2%; min-width: 760px" class="center">
+                <p style="color:rgb(73, 78, 82); font-size: 28px; margin: 0px;"><b>DeeperAction@ ECCV2022</b></p>
+                <p style="color:rgb(73, 78, 82); font-size: 32px; text-align:center; margin: 0px;"><b>Challenge and
+                        Workshop on Detailed Video Action<br>Understanding and Anomaly Recognition</b></p>
+                <p style="color:rgb(73, 78, 82); font-size: 28px; margin: 0px; text-align: right;"><b>Friday 28th
+                        October 2022</b></p>
+            </div>
+        </div>
+    </div>
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+    <div class="masthead">
+        <div class="masthead__inner-wrap">
+            <div class="masthead__menu">
+                <nav id="site-nav" class="greedy-nav"> <button>
+                        <div class="navicon"></div>
+                    </button>
+                    <ul class="visible-links clearfix">
+                        <li class="masthead__menu-item masthead__menu-item--lg"><a href="../index.html">
+                                <image src="../images/logo.png" style="height:54px">
+                            </a></li>
+                        <li class="masthead__menu-item">
+                            <div class="dropdown"> <span><a href="../index.html">Datasets</a></span>
+                                <div class="dropdown-content">
+                                    <p><a href="fineaction.html">FineAction</a></p>
+                                    <p><a href="multisports.html">MultiSports</a></p>
+                                    <p><a href="sportsmot.html">SportsMOT</a></p>
+                                    <p><a href="kineticstps.html">Kinetics-TPS</a></p>
+                                    <p><a href="urbanpipe.html">UrbanPipe</a></p>
+                                    <!-- <p><a href="index.html">FineAction</a></p>
+                                    <p><a href="../multisports/index.html">MultiSports</a></p>
+                                    <p><a href="../kineticstps/index.html">Kinetics-TPS</a></p> -->
+                                </div>
+                            </div>
+                        </li>
+                        <li class="masthead__menu-item"><a href="../tracks/index.html">Tracks</a></li>
+                        <li class="masthead__menu-item"><a href="../results/index.html">Challenge Results</a></li>
+                        <li class="masthead__menu-item"><a href="../importantdates/index.html">Important Dates</a></li>
+                        <li class="masthead__menu-item"><a href="../organizers/index.html">Organizers</a></li>
+                        <li class="masthead__menu-item"><a href="../speakers/index.html">Invited Speakers</a></li>
+                        <li class="masthead__menu-item"><a href="../program/index.html">Program Schedule</a></li>
+                        <!-- <li class="masthead__menu-item"><a href="../pasteditions.html">Past Editions</a></li> -->
+                        <li class="masthead__menu-item">
+                            <div class="dropdown"> <span><a href="#">Past Editions</a></span>
+                                <div class="dropdown-content" >
+                                    <p><a href="../iccv21/index.html" style="margin: 1rem;">2021 </a></p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="hidden-links hidden"></ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div id="main" role="main">
+        <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+            <meta itemprop="headline" content="FineAction Dataset">
+            <div class="page__inner-wrap">
+                <header>
+                    <h1 class="page__title" itemprop="headline">FineAction Dataset</h1>
+                </header>
+                <section class="page__content" itemprop="text">
+                    <!-- Main -->
+                    <p style="margin-top:3px; margin-bottom:12px"> FineAction: A Fine-Grained Video Dataset for Temporal
+                        Action Localization<br> [<a href="https://arxiv.org/abs/2105.11107">paper</a>]</p>
+                    <p align="center" style="margin-top:12px">
+                        <a href="mailto:yi.liu1@siat.ac.cn"><i class="fas fa-envelope-open-text"></i></a>&nbsp
+                        <a href="https://www.yiliu.me/">Yi Liu</a>&nbsp&nbsp 
+                        <a href="mailto:lmwang.nju@gmail.com"><i class="fas fa-envelope-open-text"></i></a>&nbsp
+                        <a href="http://wanglimin.github.io">Limin Wang</a>&nbsp&nbsp
+                        <a href="mailto:yl.wang@siat.ac.cn"><i class="fas fa-envelope-open-text"></i></a>&nbsp
+                        <a href="https://scholar.google.com/citations?hl=zh-CN&user=hD948dkAAAAJ">Yali Wang</a>&nbsp&nbsp
+                        <a href="mailto:xiao.ma@siat.ac.cn"><i class="fas fa-envelope-open-text"></i></a>&nbsp
+                        <a href=" https://hypnosx.github.io/Atopos.github.io">Xiao Ma</a>&nbsp&nbsp
+                        <a href="mailto:yu.qiao@siat.ac.cn"><i class="fas fa-envelope-open-text"></i></a>&nbsp
+                        <a href="http://mmlab.siat.ac.cn/yuqiao">Yu Qiao</a>&nbsp&nbsp
+                    </p>
+                    <p align="center"> <a href="http://mmlab.siat.ac.cn">MMLAB @ Shenzhen Institute of Advanced
+                            Technology</a></p>
+                    <p align="center"> <a href="http://mcg.nju.edu.cn/en/index.html">MCG Group @ Nanjing University</a>
+                    </p>
+                    <div class="box">
+                        <center> <span class="image fit"> <img src='../images/refinedaction.gif'> </span> </center>
+                        <!-- <span class="image fit"> <img src="/images/fineaction/show1.png" alt="" /> </span> <span class="image fit"> <img src="/images/fineaction/show2.png" alt="" /> </span> -->
+                        <!--<p style="text-align:justify; text-justify:inter-ideograph;"><small>The 25fps tubelets of bounding boxes and fine-grained action category annotations in the sample frames of <i>MultiSports</i> dataset. Multiple concurrent action situations frequently appear in <i>MultiSports</i> with many starting and ending points in the long untrimmed video clips. The frames are cropped and sampled by stride 5 or 7 for visualization propose. Tubes with the same color represent the same person.</small></p>-->
+                        <hr />
+                        <header>
+                            <h3>Abstract</h3>
+                        </header>
+                        <p style="text-align:justify; text-justify:inter-ideograph;">Temporal action localization (TAL)
+                            is an important and challenging problem in video understanding. However, most existing TAL
+                            benchmarks are built upon the coarse granularity of action classes, which exhibits two major
+                            limitations in this task. First, coarse-level actions can make the localization models
+                            overfit in high-level context information, and ignore the atomic action details in the
+                            video. Second, the coarse action classes often lead to the ambiguous annotations of temporal
+                            boundaries, which are inappropriate for temporal action localization. To tackle these
+                            problems, we develop a novel large-scale and fine-grained video dataset, coined as
+                            <i><b>FineAction</i></b>, for temporal action localization. In total, FineAction contains
+                            103K temporal instances of 106 action categories, annotated in 17K untrimmed videos.
+                            FineAction introduces new opportunities and challenges for temporal action localization,
+                            thanks to its distinct characteristics of fine action classes with rich diversity, dense
+                            annotations of multiple instances, and co-occurring actions of different classes. To
+                            benchmark FineAction, we systematically investigate the performance of several popular
+                            temporal localization methods on it, and deeply analyze the influence of short-duration and
+                            fine-grained instances in temporal action localization. We believe that FineAction can
+                            advance research of temporal action localization and beyond.</p>
+                        <!--<header><h3>Demo Video</h3><p>Please choose "1080P" for better experience.</p></header><p align="center"><iframe width="600" height="320" src="https://www.youtube.com/embed/uGjvKYWZ5Ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>-->
+                        <!--<header><h3>Hierarchy of Action Category</h3></header><span class="image fit"><img src="/images/ms_hier.png" alt=""/></span><p style="text-align:justify; text-justify:inter-ideograph;"> The action vocabulary hierarchy and annotator interface of the <i>MultiSports</i> dataset. Our <i>MultiSports</i> has a two-level hierarchy of action vocabularies, where the actions of each sport are fine-grained.</p>-->
+                        <header>
+                            <h3>FineAction Taxonomy</h3>
+                        </header>
+                        <p style="text-align:justify; text-justify:inter-ideograph;"> We generate 106 action classes
+                            within a new taxonomy of three-level granularity. This taxonomy consists of 4 top-level
+                            categories (Household Activities, Personal Care, Socializing, Relaxing and Sports,
+                            Exercise), 14 middle-level categories, and 106 bottom-level categories.</p>
+                        <ol>
+                            <li> Complete organizational taxonomy behind FineAction. <span class="image fit"><img
+                                        src="../images/fineaction/category.png" /></span></li>
+                        </ol>
+                        <header>
+                            <h3>Dataset Statitics</h3>
+                        </header>
+                        <p style="text-align:justify; text-justify:inter-ideograph;"> Our <i><b>FineAction</i></b> is a
+                            large-scale dataset that is suitable for training deep learning models, which contains
+                            103,324 instances for a total of 705 video hours. As a consequence, the number of instances
+                            in FineAction is as great as 6.17 per video and 975 per category.</p>
+                        <ol>
+                            <li> Comparison with Related Benchmarks. Our FineAction is unique due to its fine-grained
+                                action classes, multi-label and dense annotations, relatively large-scale capacity, and
+                                rich action diversity. <span class="image fit"><img
+                                        src="../images/fineaction/tab1.png" /></span></li>
+                            <li> Number of instances per category. We plot the instance distribution of all the
+                                bottom-level categories in each top-level category. All the plots exhibit the natural
+                                long-tailed distribution. <span class="image fit"><img
+                                        src="../images/fineaction/fig1.png" /></span></li>
+                        </ol>
+                        <!--<header><h3>Dataset Properties</h3></header><p style="text-align:justify; text-justify:inter-ideograph;"> Our <i>MultiSports</i> contains 66 fine-grained action categories from four different sports, selected from 247 competition records. The records are manually cut into 800 clips per sport to keep the balance of data size between sports, where we discard intervals with only background scenes, such as award, and select the highlights of competitions as video clips for action localization.</p><ol><li> Overall comparison of statistics between existing action localization datasets and our <i>MultiSports</i> v1.0. (* only train and val sets' ground-truths are available, † number of person tracklets, each of which has one or more action labels, ‡ 1fps action annotations have no clear action boundaries) <span class="image fit"><img src="/images/fineaction/tab1.png" alt="comparison with other dataset"/></span></li><li> Overall comparison of statistics between existing action localization datasets and our <i>MultiSports</i> v1.0. (* only train and val sets' ground-truths are available, † number of person tracklets, each of which has one or more action labels, ‡ 1fps action annotations have no clear action boundaries) <span class="image fit"><img src="/images/fineaction/pic1.png" alt="comparison with other dataset"/></span></li><li> Statistics of each action class's data size in <i>MultiSports</i> sorted by descending order with 4 colors indicating 4 different sports. For actions in the different sports sharing the same name, we add the name of sports after them. The natural long-tailed distribution of action categories raises new challenges for action localization models. <span class="image fit"><img src="/images/fineaction/pic2.png" alt="number of instances"/></span></li></ol>-->
+                        <header>
+                            <h3>Experiment Results</h3>
+                        </header>
+                        <ol>
+                            <li> Comparison of the state-of-the-art methods on the validation set of FineAction. Left:
+                                evaluation on action proposal generation, in terms of AR@AN. Right : evaluation on
+                                action detection, in terms of mAP at IoU thresholds from 0.5 to 0.95. <span
+                                    class="image fit"><img src="../images/fineaction/exp1.png" /></span></li>
+                            <li> Error analysis on FineAction. (a) Left : the error distribution over the number of
+                                predictions per video. G means the number of Ground-Truth instances. Right: the impact
+                                of error types, measured by the improvement gained from resolving a particular type of
+                                error. (b) Visualization of typical failure cases on FineAction. <span
+                                    class="image fit"><img src="../images/fineaction/exp2.png" /></span></li>
+                        </ol>
+                        <header>
+                            <!-- <h3>Download</h3>
+                            <p>Please refer to the <a
+                                    href="https://competitions.codalab.org/competitions/32363">competition page</a> for
+                                more information.</p> -->
+                            <!--<p > <a href="https://pan.baidu.com/s/1LiCXqqhsJAOf05oyOh_h6g">Raw_video</a> Access Code: e0e2 <br></p><p > <a href="https://pan.baidu.com/s/11DGhaS5Agtk9Ma_tSo9TaA">i3d feature</a> Access Code: bl7y <br></p><p > <a href="https://pan.baidu.com/s/15JONgemgCKa2Y8747wAVoA">i3d feature-100</a> Access Code: w0rx <br></p>-->
+                        </header>
+                    </div>
+                </section>
+                <footer class="page__meta"></footer>
+            </div>
+        </article>
+    </div>
+    <div class="page__footer">
+        <footer>
+            <!-- start custom footer snippets -->
+            <!-- end custom footer snippets -->
+            <div class="page__footer-follow">
+                <ul class="social-icons"></ul>
+            </div>
+            <div class="page__footer-copyright">&copy; 2021 DeeperAction. Powered by <a href="http://jekyllrb.com"
+                    rel="nofollow">Jekyll</a> &amp; <a
+                    href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a
+                    href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal
+                    Mistakes</a>.</div>
+        </footer>
+    </div>
+    <script src="../assets/js/main.min.js"></script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', '', 'auto');
+        ga('send', 'pageview');
+    </script> <!-- Jekyll Ideal Image Slider Include -->
+    <!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
+    <!-- v1.8 -->
+</body>
+
+</html>
